@@ -1,0 +1,85 @@
+@import "colors.css";
+
+* {
+    all: unset;
+    font-family: "Rubik", "JetBrainsMono Nerd Font Propo", "Noto Sans CJK JP", "Noto Sans CJK KR";
+}
+
+#waybar {
+    font-family: "Rubik", "JetBrainsMono Nerd Font Propo";
+    font-size: 14px;
+}
+
+tooltip {
+    background-color: @base;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.modules-center {
+    background-color: @base;
+    padding: 2px 12px;
+    border-radius: 99px;
+    color: white;
+}
+
+.modules-left {
+    background-color: @base;
+    padding: 2px 12px;
+    border-radius: 99px;
+    color: white;
+}
+
+.modules-right {
+    background-color: @base;
+    padding: 4px 12px;
+    border-radius: 99px;
+    color: white;
+}
+
+#clock {
+    font-weight: 600;
+    background-color: @lavender;
+    padding: 2px 12px;
+    border-radius: 12px;
+}
+
+#network {
+    background-color: @peach;
+    padding: 2px 12px;
+    border-radius: 12px;
+}
+
+#pulseaudio {
+    background-color: @green;
+    padding: 2px 12px;
+    border-radius: 12px;
+}
+
+#workspaces {
+    background-color: @base;
+    border-radius: 99px;
+}
+
+#workspaces button {
+    background-color: @surface2;
+    padding: 2px 4px;
+    border-radius: 99px;
+    margin: 0 2px;
+    transition: all 0.3s ease-in-out;
+    min-width: 6px;
+    color: white;
+}
+
+#workspaces button.active {
+    background-color: @teal;
+    min-width: 1.5rem;
+    border-radius: 99px;
+    font-weight: 500;   
+}
+
+#workspaces button.empty {
+    color: @subtext0;
+}
