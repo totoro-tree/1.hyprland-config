@@ -2,4 +2,4 @@
 My first Handmade hyprland config
 
 
-# 2. for rofi use https://github.com/akshatm1/Dotfiles-Public
+# 2. for rofi use https://github.com/adi1090x/rofi
