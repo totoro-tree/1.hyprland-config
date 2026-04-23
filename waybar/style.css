@@ -33,29 +33,33 @@ tooltip {
 }
 
 .modules-right {
-    background-color: @base;
-    padding: 4px 12px;
+    padding: 2px 12px;
     border-radius: 99px;
     color: white;
 }
 
 #clock {
     font-weight: 600;
-    background-color: @lavender;
+    color: @lavender;
     padding: 2px 12px;
     border-radius: 12px;
+    background-color: @base;
 }
 
 #network {
-    background-color: @peach;
+    color: @peach;
     padding: 2px 12px;
     border-radius: 12px;
+    font-weight: 500;
+    background-color: @base;
 }
 
 #pulseaudio {
-    background-color: @green;
+    color: @green;
     padding: 2px 12px;
     border-radius: 12px;
+    font-weight: 500;
+    background-color: @base;
 }
 
 #workspaces {
@@ -69,7 +73,7 @@ tooltip {
     border-radius: 99px;
     margin: 0 2px;
     transition: all 0.3s ease-in-out;
-    min-width: 6px;
+    min-width: 2px;
     color: white;
 }
 
