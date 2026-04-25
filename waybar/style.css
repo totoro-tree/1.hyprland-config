@@ -19,21 +19,19 @@ tooltip {
 }
 
 .modules-center {
-    background-color: @base;
-    padding: 2px 12px;
+    padding: 0px 12px;
     border-radius: 99px;
     color: white;
 }
 
 .modules-left {
-    background-color: @base;
-    padding: 2px 12px;
+    padding: 0px 12px;
     border-radius: 99px;
     color: white;
 }
 
 .modules-right {
-    padding: 2px 12px;
+    padding: 0px 12px;
     border-radius: 99px;
     color: white;
 }
@@ -44,14 +42,17 @@ tooltip {
     padding: 2px 12px;
     border-radius: 12px;
     background-color: @base;
+    min-width: 2px;
 }
 
 #network {
+	padding: 2px 12px;
     color: @peach;
     padding: 2px 12px;
     border-radius: 12px;
     font-weight: 500;
     background-color: @base;
+    min-width: 2px;
 }
 
 #pulseaudio {
@@ -60,30 +61,51 @@ tooltip {
     border-radius: 12px;
     font-weight: 500;
     background-color: @base;
+    min-width: 2px;
 }
 
 #workspaces {
     background-color: @base;
     border-radius: 99px;
+    font-weight: 600;
 }
 
 #workspaces button {
-    background-color: @surface2;
-    padding: 2px 4px;
-    border-radius: 99px;
+    padding: 0px 4px;
     margin: 0 2px;
-    transition: all 0.3s ease-in-out;
     min-width: 2px;
     color: white;
 }
 
-#workspaces button.active {
-    background-color: @teal;
-    min-width: 1.5rem;
-    border-radius: 99px;
-    font-weight: 500;   
-}
-
 #workspaces button.empty {
     color: @subtext0;
+}
+
+#workspaces button.active {
+	color: @teal;   
+}
+
+#custom-media {
+	background-color: @base;
+	padding: 2px 6px;
+	border-radius: 12px;
+	color: @pink;
+}
+
+#cpu {
+    color: @blue;
+    padding: 2px 12px;
+    border-radius: 12px;
+    font-weight: 500;
+    background-color: @base;
+    min-width: 2px;
+}
+
+#memory {
+    color: @maroon;
+    padding: 2px 12px;
+    border-radius: 12px;
+    font-weight: 500;
+    background-color: @base;
+    min-width: 2px;
 }
